@@ -7,6 +7,7 @@
     <table>
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Nom</th>
                 <th>Description</th>
                 <th>Date de Création</th>
@@ -20,6 +21,7 @@
             <!-- Boucle sur tous les articles pour les afficher -->
             @foreach($articles as $article)
             <tr>
+                <td>{{ $article->id }}</td>
                 <td>{{ $article->nom }}</td>
                 <td>{{ $article->description }}</td>
                 <td>{{ $article->date_creation }}</td>
@@ -92,7 +94,7 @@
     }
 
     .btn-warning {
-        background-color: #f39c12;
+        background-color: #3498db;
         color: #fff;
     }
 

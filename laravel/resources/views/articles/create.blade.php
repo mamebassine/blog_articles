@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app') <!--la vue actuelle hérite de la mise en page définie dans layouts.app-->
 
 @section('content')
 <div class="container">
